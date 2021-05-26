@@ -1,57 +1,66 @@
-Comandos 
+# Comandos Iniciais
 
-    # criar um repositório 
+Criar um repositório 
     
-        git init
+    git init
 
-        # ciar um repositório Git sem uma cópia dos arquivos 
+Criar um repositório Git sem uma cópia dos arquivos 
 
-        git init --bare
+    git init --bare
     
-    # analisar o estado do repositório
+Analisar o estado do repositório
         
-        git status
+    git status
 
-    # adicionar arquivos para serem commitados
+Adicionar arquivos para serem commitados
 
-        git add <nome_arquivo>
+    git add <nome_arquivo>
 
-    # commitar arquivos,
+Commitar arquivos
 
-        git commit -m "mensagem de identificacao do commit"
+    git commit -m "mensagem de identificacao do commit"
 
-    # verificar o histórico de commits
+# Histórico de commits
 
-        git log --online
-        
-        git log -p
-        
-        git log --pretty="parametros de formatação"
+oneline
+    
+    git log --online
+
+verificar alterações        
+
+    git log -p
+    
+# Log com parametros de formatação
+
+    git log --pretty="parametros de formatação"
             
-        # Retorna apenas os hash
-            git log --pretty="format:%H"
-
-        # Retorna hash resumido seguido pela mensagem do commit
-            git log --pretty="format:%h %s"
-        
+Retorna apenas os hash
     
-    # listar repositórios remotos
+    git log --pretty="format:%H"
 
-        git remote
+Retorna hash resumido seguido pela mensagem do commit
 
-    # lista repositórios e caminhos
+    git log --pretty="format:%h %s"
+        
+# Repositório remoto
+    
+lista repositório remoto
+
+    git remote
+
+lista de repositórios + caminhos
         
         git remote -v
 
-    # adicionar repositório remoto
+adicionar repositório remoto
 
-        git remote add <nome> {caminho}
+    git remote add <nome> {caminho}
     
-    # remover um repositorio remoto
+remover um repositorio remoto
 
-        git remote remove <nomeDoRepositório>
+    git remote remove <nomeDoRepositório>
 
-    # clonar um repositório
+clonar um repositório
 
-        git clone {caminho} 
+    git clone {caminho} 
     
