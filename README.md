@@ -50,7 +50,7 @@ lista repositório remoto
 
 lista de repositórios + caminhos
         
-        git remote -v
+    git remote -v
 
 adicionar repositório remoto
 
@@ -64,3 +64,21 @@ clonar um repositório
 
     git clone {caminho} 
     
+# Merge e Rebase
+
+Merge: Gera sempre um novo commit informando que houve uma mescla entre 2 branchs
+    
+    git merge
+
+rebase: traz os commits de uma branch para outra (não gera commit, simplificando log)
+
+    git rebase
+
+Visulualize usando diagramas de ramifiucações detalhadas (Site bacana)
+
+    https://git-school.github.io/visualizing-git/
+
+Artigo: Git - Rebase vs Merge
+
+    https://medium.com/datadriveninvestor/git-rebase-vs-merge-cc5199edd77c
+
