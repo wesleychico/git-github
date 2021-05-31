@@ -82,3 +82,46 @@ Artigo: Git - Rebase vs Merge
 
     https://medium.com/datadriveninvestor/git-rebase-vs-merge-cc5199edd77c
 
+# Desfazer
+
+Desfazer uma alteração antes de adiciona-lá
+    
+    git checkout -- <nome_do_arquivo>
+
+Desfazer uma alteração após adiciona-lá
+
+    git reset HEAD <nome_do_arquivo>
+
+    git checkout --<nome_do_arquivo>
+
+Desfazer uma alteração já commitada
+
+    git revert <id_commit>
+
+Deixar um código no estado de um commit 
+
+    git checkout <hash_commit>
+
+
+# Commit temporário
+
+Guardar um trabalho para retomá-lo posteriormente
+
+    git stash
+
+Visualizar quais alterações estão na stash
+
+    git stash list
+
+Aplicar uma alteração específica da stash    
+
+    git stash apply <numero>
+
+Remover um determinado item da lista de stash
+
+    git stash drop <numero>
+
+Aplica e remove a última alteração que foi adicionada na stash
+
+    git stash pop
+
