@@ -102,7 +102,6 @@ Deixar um código no estado de um commit
 
     git checkout <hash_commit>
 
-
 # Commit temporário
 
 Guardar um trabalho para retomá-lo posteriormente
@@ -124,4 +123,18 @@ Remover um determinado item da lista de stash
 Aplica e remove a última alteração que foi adicionada na stash
 
     git stash pop
+
+# Comparando commits e branchs
+
+Visualizar quais alterações foram realizadas em cada arquivo
+
+    git diff
+
+Comparar as alterações entre duas branches 
+
+    git diff <branch1>..<branch2>
+
+Comparar as alterações feitas entre um commit
+
+    git diff <commit1>..<commit2>
 
