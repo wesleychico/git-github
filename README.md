@@ -138,3 +138,8 @@ Comparar as alterações feitas entre um commit
 
     git diff <commit1>..<commit2>
 
+# Gerando versão
+
+Criar uma tag
+
+    git tag -a v0.1.0 -m "Lançando a primeira versão (BETA) da aplicação de cursos"
