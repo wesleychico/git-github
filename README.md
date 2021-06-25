@@ -82,6 +82,10 @@ Artigo: Git - Rebase vs Merge
 
     https://medium.com/datadriveninvestor/git-rebase-vs-merge-cc5199edd77c
 
+Unindo commits
+
+    git rebase -i HEAD~<Quantidade_commit_analisados>
+ 
 # Desfazer
 
 Desfazer uma alteração antes de adiciona-lá
@@ -137,6 +141,7 @@ Comparar as alterações entre duas branches
 Comparar as alterações feitas entre um commit
 
     git diff <commit1>..<commit2>
+
 
 # Gerando versão
 
