@@ -146,13 +146,13 @@ Comparar as alterações feitas entre um commit
 
 Trazer um commit específico para a branch atual
 
-    git cherry-pich <hash commit>
+    git cherry-pich <hash_commit>
 
 Encontrar o commit em que determinada alteração foi aplicadado
 
     git bisect start
-    git bisect bad <hash commit>
-    git bisect good <hash commit>
+    git bisect bad <hash_commit>
+    git bisect good <hash_commit>
     git bisect good
     git bisect revert
 
@@ -162,7 +162,7 @@ Encontrar o responsável por determinada linha ou bloco de código
 
 Mostra todas as alterações aplicadas pelo commit 
 
-    git show <hash commit>
+    git show <hash_commit>
 
 # Gerando versão
 
